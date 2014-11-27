@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="170px" height="170px" viewBox="0 0 170 170" enable-background="new 0 0 170 170" xml:space="preserve">
+<g id="portrait">
+	<path fill="#C0392B" d="M55,1C25.314,1,1,25.151,1,54.941V169h108V54.941C109,25.151,84.686,1,55,1z"/>
+</g>
+<g id="landscape">
+	<path fill="#C0392B" d="M169,115c0-29.686-24.116-54-53.863-54H1v108h114.137C144.884,169,169,144.686,169,115z"/>
+</g>
+<g id="ds">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="403.9717" y1="-357.2739" x2="372.4394" y2="-351.7139" gradientTransform="matrix(1 0 0 -1 -287.5 -242)">
+		<stop  offset="0" style="stop-color:#000000;stop-opacity:0.0163"/>
+		<stop  offset="0.7127" style="stop-color:#000000"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M115.482,61.009h-6.496v107.81L133.979,64.42C128.216,62.253,121.986,61.05,115.482,61.009z"/>
+</g>
+</svg>

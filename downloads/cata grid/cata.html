@@ -1,0 +1,488 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cata Grid</title>
+
+<meta content="Cata Grid system" name="description">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<link href="css/cata.css" rel="stylesheet">
+<link href="css/cata-grid-layout.css" rel="stylesheet">
+
+<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="span-full">
+				<div class="cataLogo">
+					<img src="img/cata.png" class="bottom" alt="Cata logo - lucky cat - maneki-neko">
+                    <img src="img/cata2.png" class="top" alt="Cata logo - lucky cat - maneki-neko">                  
+				</div>	
+				
+				<h1>Cata <span>Grid</span></h1>
+				<p class="intro">A responsive grid system, <span>percentage</span> based widths &amp; fixed <span>pixel</span> based gutters.</p>
+				
+				<!--
+				<a class="btn" href="#">View on Github</a>
+				-->
+			
+			</div><!-- /span col -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+</header>
+
+<!-- Section - Grid - 12 Col (demo purposes) -->
+<section class="grid">
+	<div class="container">
+		<div class="content1440">
+			<div class="content1024">
+				<div class="row">
+					<h2>The Grid
+						<a href="#openModal">	
+							<?xml version="1.0" encoding="utf-8"?>
+							<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+							<svg version="1.1" id="magnify" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38px" height="38px" viewBox="8.5 28.5 38 38" enable-background="new 8.5 28.5 38 38" xml:space="preserve">
+							<g>
+								<g>
+									<path d="M28.857,41.66c-1.707-1.451-4.269-1.439-5.955,0.025c-0.176,0.151-0.342,0.317-0.493,0.496 c-1.634,1.924-1.397,4.815,0.524,6.45c1.707,1.449,4.268,1.438,5.955-0.026c0.176-0.152,0.342-0.32,0.493-0.498 c0.791-0.933,1.173-2.115,1.074-3.334C30.355,43.557,29.789,42.449,28.857,41.66z"/>
+									<path d="M40.229,34.771c-7.029-7.029-18.428-7.027-25.456,0c-7.03,7.03-7.03,18.426,0,25.457 c7.028,7.028,18.427,7.028,25.456,0C47.258,53.199,47.258,41.801,40.229,34.771z M36.032,56.545 c-0.369,0.346-0.828,0.537-1.296,0.578c-0.645,0.057-1.307-0.176-1.783-0.686l-3.917-4.199c-0.035-0.037-0.06-0.078-0.091-0.117 c-2.604,1.125-5.739,0.744-7.985-1.166c-3.205-2.721-3.599-7.543-0.874-10.746c0.25-0.297,0.525-0.574,0.816-0.828 c2.815-2.443,7.084-2.465,9.93-0.047c1.553,1.318,2.499,3.164,2.664,5.193c0.139,1.711-0.297,3.379-1.227,4.791l3.869,4.147 C36.959,54.346,36.912,55.725,36.032,56.545z"/>
+								</g>
+							</g>
+							</svg>
+						</a>
+					</h2>
+				
+				<!-- modal window -->			
+					<div id="openModal" class="modalDialog">
+						<a href="#close"></a>
+						<div>
+							<a href="#close" title="Close" class="close">
+								<?xml version="1.0" encoding="utf-8"?>
+								<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+								<svg version="1.1" id="model-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+								<g id="pictograms">
+									<path d="M18,0C8.058,0,0,8.06,0,18c0,9.941,8.058,18,18,18c9.939,0,18-8.059,18-18C36,8.06,27.939,0,18,0z M25.756,22.044c1.025,1.024,1.025,2.687,0,3.712s-2.688,1.025-3.712,0L18,21.712l-4.044,4.044c-1.025,1.025-2.688,1.025-3.712,0 c-1.025-1.025-1.025-2.688,0-3.712l4.043-4.045l-4.043-4.044c-1.025-1.024-1.025-2.687,0-3.712c1.024-1.024,2.687-1.024,3.712,0	L18,14.287l4.044-4.043c1.024-1.025,2.688-1.025,3.712-0.001c1.025,1.025,1.025,2.688,0,3.713l-4.043,4.043L25.756,22.044z"/>
+								</g>
+								</svg>
+							</a>
+							<h2>Summary</h2>
+							<div class="modalScroll">
+								<p>Resize browser window to show varients</p>
+								<p>Variable column grid (1 - 12) based on a 1440px max width frame (all adjustable) using class: <br> <span class="codeFont">.content1440 { max-width: 1440px; }</span></p>
+								<p><span class="mediaSize"></span> - Basic width is 1024px (all adjustable) using class: <br> <span class="codeFont">.content1024 { max-width: 1024px; }</span></p>
+								<p><span class="mediaSize"></span> - Containing content is <span class="mediaSizeVariable"></span> (all adjustable) using classes: <br> <span class="codeFont">.content1024 { max-width: 1024px; } <br> .row { padding: 0 42px; }</span></p>
+								<p><span class="mediaSize"></span> - Gutter widths are <span class="mediaSizeGutter"></span> (all adjustable)</p>
+							</div>
+						</div>
+					</div>
+									
+				</div>
+
+			<!-- row 1 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-1-twelveth col">
+						<div class="gutters">1</div>
+					</div>
+					<div class="span-11-twelveths col">
+						<div class="gutters">11</div>
+					</div>
+				</div>
+
+			<!-- row 2 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-2-twelveths col">
+						<div class="gutters borderSolid">2</div>
+					</div>
+					<div class="span-10-twelveths col">
+						<div class="gutters">10</div>
+					</div>
+				</div>
+				
+			<!-- row 3 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-3-twelveths col">
+						<div class="gutters">3</div>
+					</div>
+					<div class="span-9-twelveths col">
+						<div class="gutters">9</div>
+					</div>
+				</div>	
+				
+			<!-- row 4 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-4-twelveths col">
+						<div class="gutters">4</div>
+					</div>
+					<div class="span-8-twelveths col">
+						<div class="gutters">8</div>
+					</div>
+				</div>		
+				
+			<!-- row 5 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-5-twelveths col">
+						<div class="gutters">5</div>
+					</div>
+					<div class="span-7-twelveths col">
+						<div class="gutters">7</div>
+					</div>
+				</div>	
+				
+			<!-- row 6 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-6-twelveths col">
+						<div class="gutters">6</div>
+					</div>
+					<div class="span-6-twelveths col">
+						<div class="gutters">6</div>
+					</div>
+				</div>	
+				
+			<!-- row 7 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-7-twelveths col">
+						<div class="gutters">7</div>
+					</div>
+					<div class="span-5-twelveths col">
+						<div class="gutters">5</div>
+					</div>
+				</div>	
+				
+			<!-- row 8 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-8-twelveths col">
+						<div class="gutters">8</div>
+					</div>
+					<div class="span-4-twelveths col">
+						<div class="gutters">4</div>
+					</div>
+				</div>
+				
+			<!-- row 9 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-9-twelveths col">
+						<div class="gutters">9</div>
+					</div>
+					<div class="span-3-twelveths col">
+						<div class="gutters">3</div>
+					</div>
+				</div>	
+				
+			<!-- row 10 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-10-twelveths col">
+						<div class="gutters borderSolid">10</div>
+					</div>
+					<div class="span-2-twelveths col">
+						<div class="gutters borderSolid">2</div>
+					</div>
+				</div>	
+				
+			<!-- row 11 -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-11-twelveths col">
+						<div class="gutters">11</div>
+					</div>
+					<div class="span-1-twelveth col">
+						<div class="gutters">1</div>
+					</div>
+				</div>	
+
+			<!-- Equal Widths -->		
+				<div class="row newSection">
+					<h3>Equal width layout varients</h2>
+				</div><!-- /row -->		
+				
+			<!-- row 2 equal amounts -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-1-half col">
+						<div class="gutters">6</div>
+					</div>
+					<div class="span-1-half col">
+						<div class="gutters">6</div>
+					</div>
+				</div>	
+				
+			<!-- row 3 equal amounts -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-1-third col">
+						<div class="gutters">4</div>
+					</div>
+					<div class="span-1-third col">
+						<div class="gutters">4</div>
+					</div>
+					<div class="span-1-third col">
+						<div class="gutters">4</div>
+					</div>
+				</div>	
+				
+			<!-- row 4 equal amounts -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-1-fourth col">
+						<div class="gutters">3</div>
+					</div>
+					<div class="span-1-fourth col">
+						<div class="gutters">3</div>
+					</div>
+					<div class="span-1-fourth col">
+						<div class="gutters">3</div>
+					</div>
+					<div class="span-1-fourth col">
+						<div class="gutters">3</div>
+					</div>
+				</div>
+				
+			<!-- row 6 equal amounts -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-1-sixth col">
+						<div class="gutters">2</div>
+					</div>
+					<div class="span-1-sixth col">
+						<div class="gutters">2</div>
+					</div>
+					<div class="span-1-sixth col">
+						<div class="gutters">2</div>
+					</div>
+					<div class="span-1-sixth col">
+						<div class="gutters">2</div>
+					</div>
+					<div class="span-1-sixth col">
+						<div class="gutters">2</div>
+					</div>
+					<div class="span-1-sixth col">
+						<div class="gutters">2</div>
+					</div>
+				</div>	
+			
+			<!-- Example -->
+				<div class="row newSection clearfix">
+					<h3>Example Grid Usage</h3>
+					<h4>Four Column Equal Width Layout: Code</h4>
+					<div class="span-full col">
+						<code>
+							<span class="codeFont">
+								
+									&lt;div class=&quot;row responsiveGutter clearfix&quot;&gt;<br>
+										<span class="indent">&lt;div class=&quot;span-1-fourth col&quot;&gt;</span><br>
+											<span class="indent2">&lt;div class=&quot;gutters&quot;&gt;&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;div class=&quot;span-1-fourth col&quot;&gt;</span><br>
+											<span class="indent2">&lt;div class=&quot;gutters&quot;&gt;&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;div class=&quot;span-1-fourth col&quot;&gt;</span><br>
+											<span class="indent2">&lt;div class=&quot;gutters&quot;&gt;&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;div class=&quot;span-1-fourth col&quot;&gt;</span><br>
+											<span class="indent2">&lt;div class=&quot;gutters&quot;&gt;&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;&#47;div&gt;</span><br>
+									&lt;&#47;div&gt;		
+							
+							</span>
+						</code>
+					</div><!-- /span-full col -->
+					
+					<h4 class="result">Four Column Equal Width Layout: Result</h4>
+					<div class="span-full clearfix">
+						<div class="span-1-fourth col">
+							<div class="gutters"></div>
+						</div> 
+						<div class="span-1-fourth col">
+							<div class="gutters"></div>
+						</div>
+						<div class="span-1-fourth col">
+							<div class="gutters"></div>
+						</div>
+						<div class="span-1-fourth col">
+							<div class="gutters"></div>
+						</div>
+					</div><!-- /span-full clearfix -->
+	
+				</div><!-- /row newSection clearfix -->
+			
+			</div><!-- /content1024 -->
+		</div><!-- /content1440 -->
+	</div><!-- /container -->
+</section>
+
+
+<!-- Section - Offset - 12 Col (demo purposes) -->
+<section class="offset">
+	<div class="container">
+		<div class="content1440">
+			<div class="content1024">
+				
+				<div class="row">
+					<h2>Offset layout examples</h2>
+				</div><!-- /row -->	
+				
+			<!-- row offset -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-3-twelveths col">
+						<div class="gutters">3</div>
+					</div>
+					<div class="span-3-twelveths col">
+						<div class="gutters">3</div>
+					</div>
+					<div class="span-2-twelveths col offset-1-twelveth">
+						<div class="gutters">2</div>
+					</div>
+					<div class="span-3-twelveths col">
+						<div class="gutters">3</div>
+					</div>
+				</div>	
+
+			<!-- row offset -->					
+				<div class="row responsiveGutter clearfix">
+					<div class="span-4-twelveths col offset-2-twelveths">
+						<div class="gutters">4</div>
+					</div>
+					<div class="span-3-twelveths col">
+						<div class="gutters">3</div>
+					</div>
+					<div class=" span-1-twelveth col offset-2-twelveths">
+						<div class="gutters">1</div>
+					</div>
+				</div>	
+				
+			<!-- row offset -->		
+				<div class="row responsiveGutter clearfix">
+					<div class="span-4-twelveths col">
+						<div class="gutters">4</div>
+					</div>
+					<div class="span-2-twelveths col">
+						<div class="gutters">2</div>
+					</div>
+					<div class="span-4-twelveths col offset-2-twelveths">
+						<div class="gutters">4</div>
+					</div>
+				</div>									
+					
+				
+<!-- Example -->
+				<div class="row newSection clearfix">
+					<h3>Example Offset Usage</h3>
+					<h4>Four Column Equal Width Offset: Code</h4>
+					<div class="span-full col">
+						<code>
+							<span class="codeFont">
+								
+									&lt;div class=&quot;row responsiveGutter clearfix&quot;&gt;<br>
+										<span class="indent">&lt;div class=&quot;span-1-fourth col&quot;&gt;</span><br>
+											<span class="indent2">&lt;div class=&quot;gutters&quot;&gt;&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;div class=&quot;span-1-fourth col&quot;&gt;</span><br>
+											<span class="indent2">&lt;div class=&quot;gutters&quot;&gt;&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;div class=&quot;span-1-fourth col offset-1-fourth&quot;&gt;</span><br>
+											<span class="indent2">&lt;div class=&quot;gutters&quot;&gt;&lt;&#47;div&gt;</span><br>
+										<span class="indent">&lt;&#47;div&gt;</span><br>
+									&lt;&#47;div&gt;		
+							
+							</span>
+						</code>
+					</div><!-- /span-full col -->
+					
+					<h4 class="result">Four Column Equal Width Layout: Result</h4>
+					<div class="span-full clearfix">
+						<div class="span-1-fourth col">
+							<div class="gutters"></div>
+						</div> 
+						<div class="span-1-fourth col">
+							<div class="gutters"></div>
+						</div>
+						<div class="span-1-fourth col offset-1-fourth">
+							<div class="gutters"></div>
+						</div>
+					</div><!-- /span-full clearfix -->
+	
+				</div><!-- /row newSection clearfix -->				
+				
+				
+			</div><!-- /content1024 -->
+		</div><!-- /content1440 -->
+	</div><!-- /container -->
+</section>
+
+
+<!-- Section - Additional - 12 Col (demo purposes) -->
+<section class="additional">
+	<div class="container">
+		<div class="content1440">
+			<div class="content1024">
+				
+				<div class="row">
+					<h2>Learn, understand, improve, repeat</h2>
+				</div><!-- /row -->	
+				
+			<!-- 3 col row  -->		
+				<div class="row">
+					
+					<div class="span-4-twelveths col alpha">
+						<div class="gutters">
+							<h3>Play</h3>
+							<p>Change the layout, amount of columns, use different media-queries, think about information flow in your html structure. How can this work for you?</p>
+						</div>
+					</div>
+					
+					<div class="span-4-twelveths col beta">
+						<div class="gutters">
+							<h3>Use</h3>
+							<p>	Think about what is best for your design, how your content flows &amp; can be displayed at different widths. Have you considered Mobile First?</p>
+						</div>
+					</div>
+					
+					<div class="span-4-twelveths col gamma">
+						<div class="gutters">
+							<h3 class="tighterKern">Download</h3>
+							<p>Feel free to download, play, experiment, steal, adapt or suggest improvements. After all we are all learning &amp; developing, I welcome your comments. </p>
+						</div>
+					</div>
+					
+				
+				</div>	
+				
+			<!-- Download -->
+				<div class="row">
+					<div class="span-full col">
+						<a href="http://www.ad74.co.uk/downloads/cata.zip" class="downloadContainer" target="_blank">
+							<div class="download">
+								<div class="speech"></div>
+								<img src="img/cata2.png" alt="Cata logo - lucky cat - maneki-neko">
+								<div class="downloadArrow">
+									<?xml version="1.0" encoding="utf-8"?>
+									<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+									<svg version="1.1" id="download-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="42px" viewBox="7.5 30.5 36 42" enable-background="new 7.5 30.5 36 42" xml:space="preserve">
+									<g>
+										<g>
+											<path fill="#EE5D4B" d="M23.607,60.182c1.527,1.762,2.356,1.762,3.891-0.016c0,0,8.132-9.02,9.396-10.361 c1.266-1.343,0.269-3.281-1.826-3.281l-4.073,0.006V33.938c0-1.342-1.093-2.438-2.425-2.438H22.43 c-1.334,0-2.425,1.096-2.425,2.438v12.584l-4.087-0.004c-2.096-0.002-3.287,1.652-1.802,3.25 C15.603,51.365,23.607,60.182,23.607,60.182z"/>
+											<path fill="#EE5D4B" d="M40.051,64.398H10.949c-1.347,0-2.449,1.102-2.449,2.449v2.203c0,1.348,1.102,2.449,2.449,2.449h29.102 c1.348,0,2.449-1.102,2.449-2.449v-2.203C42.5,65.5,41.398,64.398,40.051,64.398z"/>
+										</g>
+									</g>
+									</svg>
+								</div>
+							</div>
+						</a>	
+					</div>
+				</div>									
+						
+				
+				
+			</div><!-- /content1024 -->
+		</div><!-- /content1440 -->
+	</div><!-- /container -->
+</section>
+
+
+<!-- Footer -->
+<footer>
+
+</footer>
+
+
+</body>
+</html>
